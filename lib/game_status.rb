@@ -21,7 +21,7 @@ def won?(board)
   end
 
 def full?(board)
-  " ".in?(board)
+  " ".include?(board)
 end
 
 
