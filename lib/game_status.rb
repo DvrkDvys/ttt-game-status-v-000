@@ -52,7 +52,7 @@ end
 def winner(board) 
   if won? == false
     return nil
-  else win_won?(board)
+  else win_combination = won?(board)
     return board[win_combination[0]]
   end
 end
