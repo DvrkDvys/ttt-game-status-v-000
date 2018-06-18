@@ -22,9 +22,9 @@ def won?(board)
 
 def full?(board)
   if board.any? { |i| i == " " }
-    return true
+    return false
   end
-  false
+  true
 end
 
 
