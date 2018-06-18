@@ -17,15 +17,13 @@ def won?(board)
     position_2 = board[win_index_2] # load the value of the board at win_index_2
     position_3 = board[win_index_3] # load the value of the board at win_index_3
    
-if @board[win_combination[0]]==@board[win_combination[1]]&&@board[win_combination[0]]==@board[win_combination[2]]&&@board[win_combination[0]]!=" "
-+        return win_combination
-+      end
-+    end
-+    false
-+  end
-   end
+  if board[win_combination[0]]==board[win_combination[1]]&&board[win_combination[0]]==@oard[win_combination[2]]&&board[win_combination[0]]!=" "
+          return win_combination
+        end
+      end
+    false
   end
-end
+
   
   
 
