@@ -24,6 +24,7 @@ def won?(board)
      all_full = board.all? do |position|
        position !=" "
      end
+     return true
    end
   
 
