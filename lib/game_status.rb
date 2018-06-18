@@ -50,5 +50,11 @@ end
 
 
 def winner 
-
+if won? == false
++       return nil
++     else
++       win_combination = won?
++         return @board[win_combination[0]]
++       end
++     end
 end
