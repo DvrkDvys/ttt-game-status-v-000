@@ -25,8 +25,8 @@ def full?(board)
     if position !=" "
       return true
     end
+      return false
   end
-  return false
 end
 
 
