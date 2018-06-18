@@ -22,11 +22,11 @@ def won?(board)
 
 def full?(board)
    all_full = board.all? do |position|
-     position !=" "
-  return true
+     if position !=" "
+      return true
    end
-   return true
- end
+  false 
+end
   
 
 
