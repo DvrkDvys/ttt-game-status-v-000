@@ -13,7 +13,7 @@ def won?(board)
     win_index_2 = win_combination[1]
     win_index_3 = win_combination[2]
 
-  return true if board[win_combination[0]]==board[win_combination[1]]&&board[win_combination[0]]==board[win_combination[2]]&&board[win_combination[0]]!=" "
+  if board[win_combination[0]]==board[win_combination[1]]&&board[win_combination[0]]==board[win_combination[2]]&&board[win_combination[0]]!=" "
           return win_combination
   else false 
     end
