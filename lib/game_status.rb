@@ -15,11 +15,10 @@ def won?(board)
 
   if board[win_combination[0]]==board[win_combination[1]]&&board[win_combination[0]]==board[win_combination[2]]&&board[win_combination[0]]!=" "
           return win_combination
-  else board.all? { |i| i == " " } 
-    return false
-    end
+        end
+      end
+    false
   end
-end
 
 def full?(board)
   if board.any? { |i| i == " " }
@@ -41,4 +40,5 @@ def over?(board)
   if (won?(board) == true && full?(board) == true)
     return true
   end
+  false
 end
