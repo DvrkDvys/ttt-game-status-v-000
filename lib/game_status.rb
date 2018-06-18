@@ -24,8 +24,9 @@ def full?(board)
    all_full = board.all? do |position|
      if position !=" "
       return true
+    else
+      return false
    end
-  false 
   end
 end
 
