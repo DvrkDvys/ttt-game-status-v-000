@@ -15,7 +15,9 @@ def won?(board)
 
   if board[win_combination[0]]==board[win_combination[1]]&&board[win_combination[0]]==board[win_combination[2]]&&board[win_combination[0]]!=" "
           return win_combination
-  else board.all? { |i| i == " " } 
+  elsif board.all? { |i| i == " " } 
+    return false
+  else 
     end
   end
 end
