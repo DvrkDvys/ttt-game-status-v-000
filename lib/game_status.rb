@@ -26,7 +26,7 @@ def full?(board)
       return true
    end
   false 
+  end
 end
-  
 
 
