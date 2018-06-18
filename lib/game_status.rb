@@ -21,7 +21,7 @@ def won?(board)
   end
 
 def full?(board)
-   all_full = board.all? do |position|
+   board.each do |position|
     if position !=" "
       return true
     else false
