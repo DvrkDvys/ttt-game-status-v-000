@@ -32,7 +32,8 @@ def draw?(board)
   if (won?(board) == false && full?(board) == true)
     return true
   end
-  false
+  f
+  alse
 end
 
 
@@ -49,12 +50,10 @@ def over?(board)
 end
 
 
-def winner 
-if won? == false
-+       return nil
-+     else
-+       win_combination = won?
-+         return @board[win_combination[0]]
-+       end
-+     end
+def winner(board) 
+  if won? == false
+    return nil
+  else win_combination = won?(board)
+    return board[win_combination[0]]
+  end
 end
