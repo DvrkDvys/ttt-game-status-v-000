@@ -21,13 +21,13 @@ def won?(board)
   end
 
 def full?(board)
+  ' '.in?(board) # => false
+
+  
+  
    board.each do |position|
     if position !=" "
       return true
-    else
-      return false
-    end
-      return false
   end
 end
 
