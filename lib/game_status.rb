@@ -22,8 +22,9 @@ def won?(board)
 
 def full?(board)
    all_full = board.all? do |position|
-     if position !=" "
+    if position !=" "
       return true
+    else false
    end
   end
 end
