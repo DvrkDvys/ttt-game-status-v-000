@@ -20,13 +20,13 @@ def won?(board)
     false
   end
 
-  def full?(board)
-     all_full = board.all? do |position|
-       position !=" "
-return true
-     end
-     return true
+def full?(board)
+   all_full = board.all? do |position|
+     position !=" "
+  return true
    end
+   return true
+ end
   
 
 
